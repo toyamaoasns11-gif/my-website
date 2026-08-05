@@ -1,0 +1,205 @@
+/* 基本レイアウト：ここから */
+
+h2 {
+	font-size: 16px;		/* フォントサイズ：16px */
+	color: red;				/* 文字色：赤 */
+	font-weight: bold;		/* 文字の太さ：太い */
+	line-height: 100%;		/* 行の高さ：100% */
+	padding-bottom: 0px;	/* パディング（下）：0px */
+	margin-bottom: 0px;		/* マージン（下）：0px */
+	text-align: center;		/* 文字の位置：中央揃え */
+}
+
+strong {
+	font-size: 12px;			/* フォントサイズ：12px */
+	color: white;				/* 文字色：白 */
+	background-color: gold;		/* 背景色：ゴールド */
+	padding: 3px;				/* パディング：3px */
+}
+
+body {
+	font-size: 12px;			/* フォントサイズ：12px */
+	color: dimgray;				/* 文字色：グレー */
+	background-color: white;	/* 背景色：白 */
+	margin: 10px;				/* マージン：10px */
+}
+
+h1 {
+	font-size: 16px;					/* フォントサイズ：16px */
+	color: white;						/* 文字色：白 */
+	font-weight: bold;					/* 文字の太さ：太い */
+	line-height: 34px;					/* 行の高さ：34px */
+	background-color: darkorange;		/* 背景色：オレンジ */
+	background-image: url(../images/icon_crawn.gif);	/* 背景画像：imagesフォルダ内のicon_crawn.gif */
+	background-repeat: no-repeat;		/* 背景画像の繰り返し：繰り返さない */
+	width: 532px;						/* 幅：532px */
+	height: 34px;						/* 高さ：34px */
+	padding-left: 30px; 				/* パディング（左）：30px */
+	margin-bottom: 20px;				/* マージン（下）：20px */
+}
+
+.img_left {
+	float: left;			/* 回り込み：左 */
+	margin-right: 10px;		/* マージン（右）：10px */
+	margin-bottom: 10px;	/* マージン（下）：10px */
+}
+
+.dot_line {
+	font-size: 0px;					/* フォントサイズ：0px */
+	line-height: 0px;				/* 行の高さ：0px */
+	clear: both;					/* 回り込み解除：両方 */
+	background-image: url(../images/dot_line.gif);	/* 背景画像：imagesフォルダ内のdot_line.gif */
+	background-repeat: repeat-x;	/* 背景画像の繰り返し：Ｘ方向 */
+	height: 2px;					/* 高さ：2px */
+	margin-bottom: 20px;			/* マージン（下）：20px */
+}
+
+#wrapper {
+	width: 725px; 					/* 幅：725px */
+	margin: 10px auto;				/* マージン　上・下：10px、左・右：自動 */
+	border: 1px solid darkgray; 	/* ボーダー　幅：1px、種類：実線、色：darkgray（グレー） */
+}
+
+header p {
+	margin: 0px;		/* マージン：0px */
+}
+
+.sub_title {
+	background-color: darkorange;		/* 背景色：オレンジ */
+	text-align: right;					/* 文字の位置：右 */
+}
+
+nav ul {
+	margin: 0px;				/* マージン：0px */
+	padding: 0px;				/* パディング：0px */
+	list-style-type: none;		/* リストのマーカー：なし */
+}
+
+nav ul li {
+	float: left;		/* 回り込み：左 */
+}
+
+#main {
+	float: left;				/* 回り込み：左 */
+	width: 562px;				/* 幅：562px */
+	margin-right: 20px;			/* マージン（右）：20px */
+	margin-left: 20px;			/* マージン（左）：20px */
+}
+
+aside {
+	float: right;				/* 回り込み：右 */
+	width: 103px;				/* 幅：103px */
+	margin-right: 20px;			/* マージン（右）：20px */
+	margin-bottom: 20px;		/* マージン（下）：20px */
+}
+
+footer {
+	text-align: center;			/* 回り込みの解除：両方 */
+	clear: both;				/* 文字の位置：中央揃え */
+	margin-bottom: 10px;		/* マージン（下）：10px */
+}
+
+a:link {
+	color: dimgray;				/* 文字色：グレー */
+	text-decoration: none;		/* 文字装飾：なし */
+}
+
+a:visited {
+	color: gray;				/* 文字色：グレー */
+	text-decoration: none;		/* 文字装飾：なし */
+}
+
+a:hover {
+	color: orange;					/* 文字色：オレンジ */
+	text-decoration: underline;		/* 文字装飾：下線 */
+}
+
+a:active {
+	color: red;					/* 文字色：赤 */
+	text-decoration: none;		/* 文字装飾：なし */
+}
+
+aside a {
+	display: block;						/* 表示形式：ブロック */
+	margin-bottom: 10px;				/* マージン（下）：10px */
+	padding: 5px;						/* パディング：5px */
+	border-top-width: 2px;				/* 枠線の幅（上）：2px */
+	border-bottom-width: 2px;			/* 枠線の幅（下）：2px */
+	border-top-style: dotted;			/* 枠線の種類（上）：点線 */
+	border-bottom-style: dotted;		/* 枠線の種類（下）：：点線 */
+	border-top-color: gray;				/* 枠線の色（上）：gray（グレー） */
+	border-bottom-color: gray;			/* 枠線の色（下）：gray（グレー） */
+}
+
+header a:hover{
+	opacity:0.4;		/* ボックスの透明度： 0.4 */
+}
+
+/* 基本レイアウト：ここまで */
+
+/* トップページ：ここから */
+
+.align_right {
+	text-align: right;		/* 文字の位置：右揃え */
+}
+
+#slide {
+	width: 561px;			/* 幅：561px */
+	height: 375px;			/* 高さ：375px */
+	margin: 0 auto;			/* マージン　上・下：0、左・右：自動 */
+	position: relative;		/* 配置方法：relative */
+}
+
+#slide img {
+	position: absolute;		/* 配置方法：absolute */
+	left: 0;				/* 左：0px */
+	top: 0;					/* 上：0 */
+}
+
+/* トップページ：ここまで */
+
+/* クーポンページ：ここから */
+
+.arrow_orange{
+	list-style-image:url(../images/icon_arrow_orange.gif);	/* リストの画像：imagesフォルダ内のicon_arrow_orange.gif */
+}
+
+/* クーポンページ：ここまで */
+
+/* ランチ、ディナーページ：ここから */
+
+.gray_b12px {
+	font-size: 12px;		/* フォントサイズ：12px */
+	color: dimgray;			/* 文字色：グレー */
+	font-weight: bold;		/* 文字の太さ：太い */
+	text-align: center;		/* 文字の位置：中央 */
+}
+
+/* ランチ、ディナーページ：ここまで */
+
+/* お問い合わせページ　ここから */
+
+table {
+	width: 550px;					/* 幅：550px */
+	table-layout: auto;				/* テーブルレイアウト：自動 */
+	border-collapse: collapse;		/* 枠線の表示スタイル：collapse */
+}
+
+table th, table td {
+	border: 1px solid gray;			/* 枠線：1px　実線　gray（グレー） */
+}
+
+th {
+	padding: 10px;						/* パディング：10px */
+	text-align: left;					/* 文字配置：左 */
+	background-color: lemonchiffon;		/* 背景色：薄黄 */
+}
+
+.td_bgcolor {
+	background-color: lemonchiffon;		/* 背景色：薄黄 */
+	text-align: center;					/* 文字配置：中央 */
+}
+
+/* お問い合わせページ　ここまで */
+
+

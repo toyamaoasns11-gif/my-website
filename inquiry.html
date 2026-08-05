@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/style.css">
+<title>お問い合わせ</title>
+</head>
+<body>
+<div id="wrapper">
+<header>
+<p><a href="index.html"><img src="images/header.jpg" width="725" height="75" alt="カンチャナ"></a></p>
+<p class="sub_title"><img src="images/subtitle.gif" width="224" height="23" alt=""></p>
+<nav>
+<ul>
+	<li><a href="lunch.html"><img src="images/menu_lunch.gif" width="181" height="39" alt="ランチメニュー"></a></li>
+	<li><a href="dinner.html"><img src="images/menu_dinner.gif" width="181" height="39" alt="ディナーメニュー"></a></li>
+	<li><a href="access.html"><img src="images/menu_access.gif" width="182" height="39" alt="アクセスマップ"></a></li>
+	<li><a href="shop.html"><img src="images/menu_shop.gif" width="181" height="39" alt="店内のご案内"></a></li>
+</ul>
+</nav>
+</header>
+<div id="main">
+<h1>お問い合わせ</h1>
+<p>お問い合わせはこちらのフォームよりお願いいたします。</p>
+<form id="form1" name="form1" action="#">
+<table>
+<tr>
+<th>お名前</th>
+<td><input type="text" name="name" id="name"></td>
+</tr>
+<tr>
+<th>返信が必要な方は<br>
+チェックしてください</th>
+<td><label><input type="checkbox" name="reply" id="reply" value="yes">要返信</label></td>
+</tr>
+<tr>
+<th>性　別</th>
+<td>
+<label><input type="radio" name="seibetu" id="seibetu" value="female">女性</label>
+<label><input type="radio" name="seibetu" id="seibetu" value="male">男性</label>
+<label><input type="radio" name="seibetu" id="seibetu" value="unknown">ナイショ</label>
+</td>
+</tr>
+<tr>
+<th>年　齢</th>
+<td>
+<select name="age" id="age">
+<option selected="selected">↓ここから選択↓</option>
+<option value="00_18">18歳以下</option>
+<option value="19_28">19～28歳</option>
+<option value="29_38">29～38歳</option>
+<option value="39_48">39～48歳</option>
+<option value="49_00">49歳以上</option>
+</select>
+</td>
+</tr>
+<tr>
+<th>職　業</th>
+<td>
+<select name="select" id="select" size="5">
+<option>↓ここから選択↓</option>
+<option value="kaisyain">会社員</option>
+<option value="zieigyou">自営業</option>
+<option value="part">パート・アルバイト</option>
+<option value="gakusei">学生</option>
+<option value="syufu">主婦</option>
+<option value="musyoku">無職</option>
+<option value="etc">その他</option>
+</select>
+</td>
+</tr>
+<tr>
+<th>お問い合わせ内容</th>
+<td>
+<textarea name="inquiry" id="inquiry" cols="50" rows="10">
+お問い合わせ内容をご記入ください。</textarea>
+</td>
+</tr>
+<tr>
+<td colspan="2" class="td_bgcolor">
+<input type="submit" name="submit" id="submit" value="送信する">
+<input type="reset" name="reset" id="reset" value="リセット">
+</td>
+</tr>
+</table>
+</form>
+</div>
+<aside>
+<p><a href="inquiry.html">お問い合わせ</a></p>
+<p><a href="coupon.html">お得なクーポン</a></p>
+</aside>
+<footer>
+<p><small>&copy;KANCHANA</small></p>
+</footer>
+</div>
+</body>
+</html>
+
